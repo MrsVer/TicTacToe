@@ -94,6 +94,22 @@ window.addEventListener('DOMContentLoaded', () => {
       }
   }
 
+  const resetBoard = () => {
+    board = ['', '', '', '', '', '', '', '', ''];
+    isGameActive = true;
+    announcer.classList.add('hide');
+
+    if (currentPlayer === 'O') {
+        changePlayer();
+    }
+
+    tiles.forEach(tile => {
+        tile.innerText = '';
+        tile.classList.remove('playerX');
+        tile.classList.remove('playerO');
+    });
+}
+
   tiles.forEach( (tile, index) => {
       tile.addEventListener('click', () => userAction(tile, index));
   });
