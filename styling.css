@@ -1,25 +1,18 @@
-/* .grid-container {
-    display: grid;
-    grid-template: 90px / 100px 100px 100px;
-    grid-gap: 10px;
-    background-color: aquamarine;
-    padding: 10px;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px ;
-    font-size: 30px;
-  } */
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+  font-weight: bold;
+  font-size: 20px;
+}
 
-  .container {
+.container {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
     max-width: 300px;
-
 }
 
 .tile {
@@ -34,9 +27,9 @@
   cursor: pointer;
 }
 
-  .hide {
-    display: none;
-  }
+.hide {
+  display: none;
+}
 
 .controls {
   display: flex;
@@ -44,5 +37,9 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  background-color: red;
+}
+
+#reset {
+  background: orange
+  ;
 }
