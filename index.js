@@ -64,6 +64,10 @@ window.addEventListener('DOMContentLoaded', () => {
         announcer.classList.remove('hide');
     };
 
+    const updateBoard =  (index) => {
+        board[index] = currentPlayer;
+    }
+
     const changePlayer = () => {
         playerDisplay.classList.remove(`player${currentPlayer}`);
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
