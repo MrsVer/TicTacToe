@@ -6,11 +6,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   background-image: linear-gradient(180deg, red, orange);
     -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
 }
 
 .display {
@@ -56,4 +56,20 @@
 
 #reset {
   background: orange;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#reset:hover {
+  color:#744D12;
+  font-weight: bold;
+  font-size: 14px;
 }
