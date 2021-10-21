@@ -1,8 +1,23 @@
+.html {
+  background-color: burlywood;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: linear-gradient(180deg, red, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 .display {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: crimson;
+  color: blue;
   font-weight: bold;
   font-size: 20px;
 }
@@ -40,6 +55,5 @@
 }
 
 #reset {
-  background: orange
-  ;
+  background: orange;
 }
