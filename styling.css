@@ -13,6 +13,17 @@
   font-size: 40px;
 }
 
+.rules{
+  font-size: 14px;
+  text-align: center;
+}
+
+.rulespoints{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 140px;
+}
+
 .display {
   display: flex;
   justify-content: center;
